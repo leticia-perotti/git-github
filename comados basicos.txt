@@ -1,0 +1,29 @@
+Clonar um repositótio da nuvem localmente
+	- git close (url)
+	- git clone -branch new_feature <repositorio>
+	- git clone <repositorio> <meu-projeto-clone>
+Saber as alterações que ocorreram no projeto
+	 - git log
+	 - git log --oneline (traz um resumo de todas as alterações)
+	 - git log -p (mais informações)
+	 - git log --author="user_name" (pesquisa log por autor)
+	 - git log --since=1.month.ago --until=1.day.ago (pesquisa log por data)
+
+Atualizar os fontes local
+	- git pull
+
+Ver as files modificadas
+	- git status
+
+Commit
+	- git commit (file ou . para todo mundo) -m "mensagem que eu quero"
+
+Publicar os commits locais
+	- git push origin (branch)
+
+
+
+DIFF - alterações que foram feitas entre commits
+
+Voltar para tal versão 
+	- git restore --source (hash do commit) (apenas de tal file ou .)
