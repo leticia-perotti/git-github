@@ -27,3 +27,6 @@ DIFF - alterações que foram feitas entre commits
 
 Voltar para tal versão 
 	- git restore --source (hash do commit) (apenas de tal file ou .)
+
+Adicionar nova file
+	- git add (nome da file ou .)
