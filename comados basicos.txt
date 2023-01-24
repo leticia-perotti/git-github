@@ -47,6 +47,31 @@ Remove files from the working tree and from the index
 	git rm
 
 Lista a árvore do diretorio 
-	tree .git
+	tree .git 
+-> da pra ter o flashback de todos os commits
+
+Pra sair daquela tela travadona:
+	-> shift + q
+
+Ir pro branch que quero
+	git checkout -b "nome do branch"
+
+Ver a árvore
+	gitk --all
+
+criar um repositorio:
+	- git init
+
+ver o estado atual do repositorio:
+	- git status
+
+
+
+
+
+
+
+
+
 
 
