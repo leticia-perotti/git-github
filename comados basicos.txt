@@ -30,3 +30,15 @@ Voltar para tal versão
 
 Adicionar nova file
 	- git add (nome da file ou .)
+
+Branch:
+	git checkout -n "nome da branch"
+
+Voltar para o main:
+	git switch main
+
+Dar merge:
+	git merge "nome do branch que da o merge"	
+
+Lista todos os branchs:
+	git branch
