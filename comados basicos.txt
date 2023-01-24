@@ -42,3 +42,11 @@ Dar merge:
 
 Lista todos os branchs:
 	git branch
+
+Remove files from the working tree and from the index
+	git rm
+
+Lista a árvore do diretorio 
+	tree .git
+
+
