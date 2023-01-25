@@ -5,9 +5,10 @@ Clonar um repositótio da nuvem localmente
 Saber as alterações que ocorreram no projeto
 	 - git log
 	 - git log --oneline (traz um resumo de todas as alterações)
-	 - git log -p (mais informações)
+	 - git log -p (mais informações/ linha a linha alterada)
 	 - git log --author="user_name" (pesquisa log por autor)
 	 - git log --since=1.month.ago --until=1.day.ago (pesquisa log por data)
+(site que tem comandos de logs: https://devhints.io/git-log)
 
 Atualizar os fontes local
 	- git pull
@@ -65,6 +66,13 @@ criar um repositorio:
 ver o estado atual do repositorio:
 	- git status
 
+
+Ver as configurações do git para a máquina:
+	- git config --global/--local
+
+
+Ignorando arquivos:
+	- cria uma file chamada ".gitignore" e dentro dela coloca todos os arquivos a serem ignorados
 
 
 
