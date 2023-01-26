@@ -8,6 +8,7 @@ Saber as alterações que ocorreram no projeto
 	 - git log -p (mais informações/ linha a linha alterada)
 	 - git log --author="user_name" (pesquisa log por autor)
 	 - git log --since=1.month.ago --until=1.day.ago (pesquisa log por data)
+	 - git log --graph (para ter os commits en grafos)
 (site que tem comandos de logs: https://devhints.io/git-log)
 
 Atualizar os fontes local
@@ -62,6 +63,7 @@ Ver a árvore
 
 criar um repositorio:
 	- git init
+	- git init --bare (quando a pasta só vai conter as alterações do arquivo, não ele em si)
 
 ver o estado atual do repositorio:
 	- git status
@@ -74,6 +76,13 @@ Ver as configurações do git para a máquina:
 Ignorando arquivos:
 	- cria uma file chamada ".gitignore" e dentro dela coloca todos os arquivos a serem ignorados
 
+Adicionando repositorios remotos:
+	- git remote add local "caminho"
+	- git remote -v (lista os locais para pegar e guardar os arquivos)
+
+
+Unir commit(atualizar) sem dar merge:
+	- git rebase "nome da brach"
 
 
 
