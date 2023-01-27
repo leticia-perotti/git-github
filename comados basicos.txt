@@ -84,6 +84,30 @@ Adicionando repositorios remotos:
 Unir commit(atualizar) sem dar merge:
 	- git rebase "nome da brach"
 
+Desfazer o commit:
+	- git checkout -- "nome do arquivo"
+	- git reset head "nome do arquivo"
+	- git revert "hash do commit"
+
+Salvar todas as alterações em um local que não é o servidor
+	- git stash
+
+
+Pegar a ultima alteração do stash e remover ela de lá
+	- git stash pop
+
+ Viajar pelos commit
+	- git checkout "hash"
+
+Ver a diferença entre codigos:
+	- git diff "hash inicio" ... "hash fim"
+	- git diff  -> sem nada traz o que ta sendo alterado no momento
+
+Criar uma tag
+	- git tag -a v0.0.1 -m "primira versao"
+
+
+
 
 
 
