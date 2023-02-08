@@ -1,0 +1,4 @@
+Issues -> sugestões de novas melhorias/funcionalidades
+
+Issues podem ser criadas em qualquer repositório
+
