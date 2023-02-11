@@ -14,3 +14,6 @@ Unir commits -> git rebase -i HEAD~3
 Pick -> separa (raiz)
 
 S -> uni commites
+
+Soluções alternativas no bitBucket
+
