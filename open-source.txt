@@ -2,3 +2,15 @@ Issues -> sugestões de novas melhorias/funcionalidades
 
 Issues podem ser criadas em qualquer repositório
 
+Fork -> copia segura do codigo
+
+Pull request -> pedido de envio de mudança
+
+Unir commits -> git rebase -i HEAD~3
+
+		(uni os três ultimos commits)7
+
+
+Pick -> separa (raiz)
+
+S -> uni commites
