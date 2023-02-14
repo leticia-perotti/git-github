@@ -17,3 +17,8 @@ S -> uni commites
 
 Soluções alternativas no bitBucket
 
+GitLab
+
+
+git cherry-pick (hash) traz commit específico para a master
+
