@@ -33,3 +33,8 @@ Procurar um código em determinado estado:
 
 	git show -> ve todas as alterações do commit
 
+Saber o responsável por um bug
+	git blame (nome do arquivo)
+	sabe quem é responsável por alterar cada linha
+
+
