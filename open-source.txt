@@ -22,3 +22,14 @@ GitLab
 
 git cherry-pick (hash) traz commit específico para a master
 
+
+Procurar um código em determinado estado:
+	git bisect start
+	git bisect bad HEAD -> como está alterado errado
+	git bisect good (hash) -> um estado que acredito ainda estar bom
+
+	git bisect bad -> segue loop
+	git bisect good -> momento que está bom
+
+	git show -> ve todas as alterações do commit
+
