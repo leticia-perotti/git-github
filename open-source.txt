@@ -37,4 +37,10 @@ Saber o responsável por um bug
 	git blame (nome do arquivo)
 	sabe quem é responsável por alterar cada linha
 
+git log --graph (grafo)
+
+MASTER -> apenas o código que está pronto para a produção
+
+
+
 
