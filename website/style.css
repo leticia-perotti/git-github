@@ -1,0 +1,6 @@
+*{
+    --roxo: #8409ad;
+}
+body{
+    background-color: var(--roxo);
+}
